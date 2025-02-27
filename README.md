@@ -1,7 +1,3 @@
-# Data Science
-
-![IMG_23112](https://github.com/user-attachments/assets/13ebbab0-76d3-482a-a0cb-2fdc55abed9f)
-
 ### Mínimos Quadrados em 2 Estágios
 
  assumir que os termos de erro no modelo
@@ -174,6 +170,14 @@ introducao - chtgpt
 
 - Teoria Econômica & Econometria
 > Por meio da Econometria é possível avaliar empiricamente a teoria econômica e explicar fatos passados, testar hipóteses, prever resultados de políticas ou eventos futuros e estimar relações entre variáveis econômicas. Isso é viável porque, em geral, há relações de equilíbrio de longo prazo entre variáveis econômicas.
+
+Etapa da Ciência de Dados
+1) Coleta de Dados: Envolve a obtenção de dados de diversas fontes, como bancos de dados, APIs, sensores, e web scraping.
+2) Limpeza e Preparação de Dados: Os dados coletados frequentemente contêm erros, valores ausentes ou inconsistências. A limpeza e a preparação são etapas cruciais para garantir a qualidade dos dados.
+3) Análise Exploratória de Dados (EDA): Consiste em explorar os dados para entender suas características, padrões e tendências, utilizando visualizações e estatísticas descritivas.
+4) Modelagem: Envolve a aplicação de algoritmos de machine learning e estatística para criar modelos preditivos ou descritivos. Isso pode incluir regressão, classificação, clustering, entre outros.
+5) Avaliação de Modelos: Após a modelagem, é importante validar a eficácia do modelo utilizando métricas apropriadas de desempenho, monitorado e ajustado o modelo conforme necessário.
+6) Resultados: A capacidade de comunicar insights de forma clara e eficaz é fundamental. Isso pode incluir a criação de relatórios, dashboards e apresentações.
 
 Exemplos de campos da econometria:
 
