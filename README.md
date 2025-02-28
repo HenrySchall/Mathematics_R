@@ -226,6 +226,8 @@ introducao - chtgpt
 
 
 
+<<<<<<< HEAD
+=======
 
 
 
@@ -331,3 +333,4 @@ Regressão de Mínimos Quadrados Pesados: Utiliza pesos diferentes para as obser
 Máxima Verossimilha (MV)
 
 
+>>>>>>> 460b46cb4535bcba3da4981fbef7a7cbab1caede
