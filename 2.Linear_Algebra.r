@@ -149,7 +149,6 @@ dist <- function (vetor1, vetor2) {
 distancia <- dist(u,v)
 print(paste0("A distância entre os vetores: ", round(distancia, 2)))
 
-
 ##############
 ## MATRIZES ##
 ##############
