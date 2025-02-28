@@ -1,3 +1,66 @@
+3. Estatística
+
+> A estatística é definda como a ciência que objetiva coletar, organizar, analisar e interpretar dados. Ela é dividida em 3 partes:
+
+Descritiva é aquela relacionada a descrição dos dados, representada pelas medidas de: centralidade (Média, moda e mediana), posição (Amplitude e Quartis), dispersão (Variância e Desvio Padrão).
+Probabilistica é aquela relacionada a conceitos de probabilidades (espaço amostral, eventos) e distribuições de probabilidade discretas e contínuas (Binomial, Poisson, Exponencial e Normal).
+Inferencial é aquela relacionada a estimação de parâmetros, intervalo de confiança e testes de hipóteses.
+> Outro ponto importante é são as chamadas Técnicas de Amostragem, que são sub-divididas em 4 grupos:
+
+Aleatória Simples: Seleção executada por meio de sorteio, sem nenhum filtro.
+Estratificada: Divisão da população em grupos e seleção aleatória de uma amostra de cada grupo. (Ex: divisão por região, classe social, religião…).
+Conglomerado (Agrupamento): Divisão da população em grupos com características similares, porém heterogêneas, e seleção aleatória de alguns grupos para analisar todos os elementos destes grupos. (Ex.: Divisão da população de escolas estaduais por região, enfermeiros de uma rede de hospitais… ).
+Sistemática: Membros da população são ordenados numericamente e são selecionados aleatoriamente, obedecendo uma sequência numérica. (Ex.: criação de números para cada amostra e seleção obedecendo uma ordem numérica).
+3) Testes de hipóteses
+
+> São testes de afirmações sobre um parâmetro. Processo que utiliza estatísticas amostrais para testar uma hipótese (afirmação original) e aceitá-la ou rejeitá-la.
+
+Existem duas hipóteses:
+
+- Hipótese nula (H0)
+
+- Hipótese alternativa (H1):
+
+Tipos de erro
+
+- Erro tipo I: hipótese nula rejeitada quando ela for verdadeira
+
+Erro tipo II: aceita a hipótese nula (não rejeita) sendo ela falsa.
+#### Intervalo de confiança
+
+- Intervalo de confiança: Probabilidade de que o parâmetro populacional estimado, esteja no intervalo selecionado.
+
+- Nível de significância: Probabilidade máxima permitida para cometer o erro tipo I.
+
+#### Métricas de Desempenho
+
+Erro absoluto médio (MAE)
+
+![Captura de tela 2023–12–23 220021](https://github.com/HenrySchall/R/assets/96027335/f5bcb70b-8869-46b5-819c-11266879e2b1)
+
+- Oi = valores observados
+
+- Pi = valores previstos
+
+Raiz do erro quadrático médio (RMSE)
+
+#### Outliers
+
+São dados discrepantes, isto é, são dados muito diferentes dos demais dados pertencentes à variável em análise. A relevância deles deve ser analisada para definir se continuarão no dataset ou se devem ser tratados (corrigidos, excluídos ou substituídos), pois se não forem relevantes, podem interferir significativamente nos resultados das análises
+
+
+ Mínimos Quadrados Ordinários (MQO): Este é o método mais comum de estimativa em regressão linear. O MQO busca minimizar a soma dos quadrados das diferenças entre os valores observados e os valores previstos pelo modelo.
+
+Mínimos Quadrados Generalizados (MQG): Este método é uma extensão do MQO que é utilizado quando as suposições de homocedasticidade (variância constante dos erros) não são atendidas. O MQG leva em conta a estrutura de variância dos erros.
+
+Regressão de Mínimos Quadrados Pesados: Utiliza pesos diferentes para as observações, o que pode ser útil em situações onde algumas observações são mais confiáveis do que outras
+
+Máxima Verossimilha (MV)
+
+
+
+
+
 ### Mínimos Quadrados em 2 Estágios
 
  assumir que os termos de erro no modelo
