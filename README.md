@@ -448,7 +448,44 @@ print(paste0("A distância entre os vetores: ", round(distancia, 2)))
 
 
 
+#####
+##   COMPARAR VETORES
+#####
 
+# Vetores com acessos ao LinkedIn and Facebook
+linkedin <- c(16, 9, 13, 5, 2, 17, 14)
+facebook <- c(17, 7, 5, 16, 8, 13, 14)
+
+# Dias populares
+linkedin > 15
+#sum(linkedin > 15)
+
+# Dias com pouco acesso
+linkedin <= 5
+
+# Dias em que o LinkedIn foi mais popular que o Facebook
+linkedin > facebook
+
+#####
+##   COMPARAR MATRIZES
+#####
+
+# Matriz com as visualizações do LinkedIn e Facebook
+views <- matrix(c(linkedin, facebook), nrow = 2, byrow = TRUE)
+
+rownames(views) <- c("linkedin","facebook")
+colnames(views) <- c("Sun","Mon","Tues","Wed","Thur","Fri","Sat")
+
+
+# Quando as visualizações foram iguais a 13?
+views == 13
+
+# Quando as visualizações foram menores ou iguais a 14?
+views <= 14
+
+# Com que frequência o Facebook tem visualizações iguais ou superiores às do LinkedIn multiplicado por 2?
+testeSoma <- linkedin * 2
+testeSoma2 <- sum(facebook >= linkedin * 2)
 
 
 
